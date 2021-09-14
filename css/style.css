@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;  
+    background-color: rgb(0, 0, 0);
+}
+
+header #menu {
+    width: 10vw;
+    margin-top: 0.5vh;
+    
+}
+header #menu img {
+    width: 100%;
+}
+
+header #logo {
+    width: 20vw;
+    margin-top: 0.5vh;
+   
+}
+header #logo img {
+    width: 100%;
+}
+
+header #carrinho {
+    width: 10vw;
+    margin-right: 1vh;
+    margin-top: 0.5vh;
+    
+}
+header #carrinho img {
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    margin-top: 21.2vh;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 3vh 0vh 1vh 1vh ;
+    
+ }
+nav ul li a {
+   text-decoration: none;
+   color: #000;
+   font-size: 24px;
+
+ }
+
+ main h1{
+     text-align: center;
+     margin: 4vw 0 0 0;
+ }
+
+ #fotos {
+    margin: 1.5vh 3vh 1.5vh 3vh; 
+    padding: 2vh 0 7vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+#fotos div {
+    width: 30%;
+    margin: 2vw 1vw 2vw 1vw;
+}
+
+#fotos div img {
+    width:100%;
+}
+
+ #fotos h2{
+     width: 100%;
+    text-align: center;
+    margin: 2vw 1px 2vh 1px;
+    font-size: 13px;
+    
+}
+
+#fotos h2 :hover{
+    color: blue;
+}
+
+#borda p{
+    font-size: 10px;
+    margin: 1px 1px 15px 1px;
+    text-align: justify;
+    
+    
+
+}
+
+#borda{
+    margin-top: 3vh;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+footer{
+    background:#1b1b1b;
+    height: auto;
+    width: 100%;
+    font-family: "Arial";
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-content{
+    max-width: 100%;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-content p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-bottom{
+    background:rgba(0, 0, 0, 0.562);
+     width: 100%;
+     padding:20px 0;
+    align-items: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+     word-spacing: 2px;
+    text-transform: capitalize;
+     text-align: center;
+}
+    
+.footer-bottom span{
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 858px){
+    nav {
+        position: absolute;
+        margin-top: 7VH;
+        width: 28vw;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #000;
+    }
+}
